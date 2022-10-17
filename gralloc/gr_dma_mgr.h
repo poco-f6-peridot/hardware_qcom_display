@@ -36,13 +36,13 @@
 #ifdef TARGET_USES_SMMU_PROXY
 #include <linux/qti-smmu-proxy.h>
 #endif
-#include <vmmem.h>
 #include <string>
 #include <vector>
 #include <bitset>
 
 #include "gr_alloc_interface.h"
 #include "membuf_wrapper.h"
+#include "vmmem.h"
 
 #define FD_INIT -1
 #define MEMBUF_CLIENT_LIB_NAME "libmemutils.so"
